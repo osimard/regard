@@ -1,0 +1,95 @@
+/* ---------------------------------------------------------------------------- */
+/* Base typography styles */
+/* ---------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'gothambook';
+    src: url('fonts/gotham-book-webfont.eot');
+    src: url('fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gotham-book-webfont.woff') format('woff'),
+    url('fonts/gotham-book-webfont.ttf') format('truetype'),
+    url('fonts/gotham-book-webfont.svg#gothambook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamhtfbook';
+    src: url('fonts/gothamhtf-book-webfont.eot');
+    src: url('fonts/gothamhtf-book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gothamhtf-book-webfont.woff') format('woff'),
+    url('fonts/gothamhtf-book-webfont.ttf') format('truetype'),
+    url('fonts/gothamhtf-book-webfont.svg#gotham_htfbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'canterboldstrips';
+    src: url('fonts/canter_bold_strips-webfont.eot');
+    src: url('fonts/canter_bold_strips-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/canter_bold_strips-webfont.woff') format('woff'),
+    url('fonts/canter_bold_strips-webfont.ttf') format('truetype'),
+    url('fonts/canter_bold_strips-webfont.svg#canterbold_strips') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'canterbold';
+    src: url('fonts/canter_bold-webfont.eot');
+    src: url('fonts/canter_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/canter_bold-webfont.woff') format('woff'),
+    url('fonts/canter_bold-webfont.ttf') format('truetype'),
+    url('fonts/canter_bold-webfont.svg#canterbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothamlight';
+    src: url('fonts/gotham-light.eot');
+    src: url('fonts/gotham-light.eot') format('embedded-opentype'),
+    url('fonts/gotham-light.woff') format('woff'),
+    url('fonts/gotham-light.ttf') format('truetype'),
+    url('fonts/gotham-light.svg#GothamLight') format('svg');
+}
+
+@font-face {
+    font-family: 'gothamcondmedium';
+    src: url('fonts/gothamhtf-mediumcondensed-webfont.eot');
+    src: url('fonts/gothamhtf-mediumcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/gothamhtf-mediumcondensed-webfont.woff') format('woff'),
+    url('fonts/gothamhtf-mediumcondensed-webfont.ttf') format('truetype'),
+    url('fonts/gothamhtf-mediumcondensed-webfont.svg#gotham_htfmedium_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* Tablet */
+/* ---------------------------------------------------------------------------- */
+
+@media all and (max-width: 1024px) {
+
+
+
+}
+
+@media all and (max-width: 768px) {
+
+
+
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Mobile */
+/* ---------------------------------------------------------------------------- */
+
+@media all and (max-width: 640px) {
+
+
+}

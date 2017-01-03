@@ -1,0 +1,161 @@
+footer {
+
+  width:100%;
+  height:150px;
+  background-color:#1b1d22;
+  color:#fff;
+
+  .icon {
+
+  }
+
+  nav, .site_plan, .newsletter {
+    display:inline-block;
+    vertical-align: middle;
+  }
+
+
+  nav {
+
+
+    ul {
+      margin:0;
+      padding-left: 96px;
+      padding-top: 46px;
+
+      #logo_footer {
+        img {
+          width:57px;
+          height:auto;
+        }
+      }
+
+      li {
+        display:inline-block;
+        vertical-align: middle;
+        font-size:13px;
+
+        &:not(:last-child) {
+          margin-right:40px;
+        }
+
+      }
+    }
+  }
+
+  .footer_options {
+    display:inline-block;
+    float:right;
+    height:100%;
+
+    .site_plan {
+      height:100%;
+      background-color:#111213;
+      padding-left:60px;
+      padding-right:60px;
+      padding-top:56px;
+      color:#fff;
+
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      div {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .icon.plan {
+        background-image:url("./images/icons/plan_icon.png");
+        width:35px;
+        height:35px;
+        margin-right:15px;
+      }
+
+      .div:last-child {
+        font-size:14px;
+      }
+    }
+
+
+    .newsletter {
+
+      padding-left:52px;
+      padding-right:150px;
+      padding-top: 56px;
+      margin-left:-6px;
+      background-color:#161719;
+      height:100%;
+
+      .newsletter_icon {
+        background-image:url("./images/icons/newsletter_orange_icon.png");
+        width:46px;
+        height:36px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right:37px;
+      }
+
+      .subscribe {
+
+        display: inline-block;
+        vertical-align: middle;
+
+        padding-bottom: 15px;
+        border-bottom: 1px solid #f47b20;
+
+        font-size:14px;
+        font-weight: bold;
+
+        .text {
+          display:inline-block;
+        }
+
+        .newsletter_link {
+          margin-left:30px;
+
+          &:hover {
+            text-decoration: none;
+            cursor: pointer;
+          }
+
+          div {
+            display:inline-block;
+            vertical-align: middle;
+          }
+
+          .text {
+          }
+
+          .right_arrow {
+            width:17px;
+            height:12px;
+            background-image: url("./images/icons/right_arrow_orange_icon.png");
+            margin-left:15px;
+          }
+        }
+      }
+    }
+
+  }
+
+  #copyright {
+
+    background-color:#ffffff;
+
+    .container {
+
+      padding-top:45px;
+      padding-bottom:45px;
+
+      p {
+        font-size:13px;
+        color:#848484;
+        text-align:center;
+      }
+    }
+
+
+  }
+}

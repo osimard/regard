@@ -1,0 +1,134 @@
+#fiche_sidebar {
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 620px;
+  height: 100%;
+  padding: 110px 105px;
+
+  background-color: #fff;
+
+
+  .caption_next {
+
+    /*height:80px;*/
+    padding-left:36px;
+    padding-top:30px;
+    padding-bottom:27px;
+
+    font-size:28px;
+    font-weight: bold;
+
+    background-color:#eeedea;
+    border-bottom:1px solid #e3e1dc;
+  }
+
+  ul {
+
+    margin:0;
+
+    li {
+
+      padding-left:28px;
+      padding-top:28px;
+      padding-bottom:33px;
+      border-bottom:1px solid #e3e1dc;
+
+      &:first-child {
+        background-color:#eeedea;
+
+        .day_container {
+          border:none;
+
+          .day {
+            font-size:38px;
+          }
+        }
+      }
+
+      .day_container {
+
+        $day_container_size:58px;
+
+        display: inline-block;
+        vertical-align: middle;
+        width: $day_container_size;
+        height: $day_container_size;
+        border: 1px solid #e2e1dd;
+        margin-right:20px;
+
+        .day {
+          display:table-cell;
+          text-align: center;
+          vertical-align: middle;
+          height:$day_container_size;
+          width:$day_container_size;
+
+          font-size:28px;
+          font-weight: bold;
+
+        }
+      }
+
+      .infos {
+
+        display: inline-block;
+        vertical-align: middle;
+
+        .datetime {
+
+          font-size:14px;
+          text-transform: uppercase;
+
+          span {
+            vertical-align: middle;
+          }
+
+          .separator {
+            display:inline-block;
+            border-left:1px solid #bcbdc1;
+            width:1px;
+            height:7px;
+          }
+        }
+
+        .location  {
+          font-size:15px;
+          text-transform: uppercase;
+        }
+
+        .category {
+
+          font-size:14px;
+
+          .block, .category_name {
+            display:inline-block;
+            vertical-align: middle;
+          }
+
+          .block {
+            width:13px;
+            height:13px;
+            margin-right: 7px;
+          }
+
+          .category_name {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+  #sidebar_logo {
+
+    text-align: center;
+    padding-top:56px;
+
+    img {
+      width:170px;
+      height:auto;
+    }
+  }
+}

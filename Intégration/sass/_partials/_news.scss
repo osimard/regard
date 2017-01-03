@@ -1,0 +1,154 @@
+.news  {
+
+  padding-top:40px;
+  /*padding-bottom:40px;*/
+
+  h3 {
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:0;
+    margin-bottom:25px;
+    float:left;
+  }
+
+  .icon {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  #all_news {
+    float:right;
+
+
+  }
+
+  ul.news_list {
+
+    margin:0;
+    background-color:#e7e6e2;
+
+    text-align: left;
+    width: 100%;
+    height:480px;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    li {
+      height:100%;
+      display:inline-block;
+      vertical-align: middle;
+      white-space: normal;
+
+      width:600px;
+      height:480px;
+      padding:80px 90px;
+
+      .news_title {
+        font-weight: bold;
+        font-size:27px;
+        text-transform: uppercase;
+        line-height:36px;
+      }
+
+      &.news_item {
+        position: relative;
+
+        &:hover .news_hover {
+          visibility: visible;
+          opacity:1;
+        }
+      }
+
+      .news_info {
+
+        ul.icon_list {
+
+          margin-top:25px;
+          margin-bottom:25px;
+
+          li {
+            position:relative;
+            width:auto;
+            height:auto;
+            vertical-align: middle;
+            padding:5px;
+            color:#7f7e7e;
+
+            .icon {
+              width:15px;
+              height:15px;
+              margin-right:5px;
+            }
+
+            .tag {
+              background-image:url("./images/icons/tag_orange_icon.png");
+            }
+
+            .calendar {
+              background-image: url("./images/icons/calendar_orange_icon.png");
+            }
+          }
+        }
+
+        .news_content {
+          font-size:18px;
+
+        }
+      }
+
+      .news_hover {
+        display: block;
+        position: absolute;;
+        top:0;
+        left:0;
+        padding:0;
+        width:100%;
+        height:100%;
+        background-color:rgba(244,123,32,0.5);
+
+        visibility: hidden;
+        opacity:0;
+
+        transition: visibility 0s, opacity 0.3s;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        -moz-transition: visibility 0s, opacity 0.3s;
+
+
+        .image {
+          height:390px;
+          width:100%;
+          background-size:cover;
+          background-position: center;
+          background-repeat:no-repeat;
+        }
+
+        .link_container {
+          /*position: absolute;*/
+          width: 100%;
+          height: 90px;
+          /*bottom: 0;*/
+          padding-top: 30px;
+          padding-right: 30px;
+          text-align: right;
+          background-color: #f47b20;
+
+          div:first-child {
+            display: inline-block;
+            vertical-align: middle;
+            color: #fff;
+          }
+
+          .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+          }
+
+        }
+      }
+    }
+  }
+}

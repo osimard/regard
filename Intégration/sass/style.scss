@@ -1,0 +1,39 @@
+/*!
+Theme Name: La Web Shop
+Theme URI: http://www.lawebshop.ca/
+Author: La Web Shop
+Author URI: http://www.lawebshop.ca/
+Description: Nous sommes une agence de développement Web engagée, audacieuse et créative. Nous voulons déployer votre marque sur le Web en vous créant des solutions sur mesure et une image distincte. La Web Shop, c’est une équipe de professionnels talentueux qui se lèvent chaque matin dans l’espoir de vous impressionner. Tout ça, juste après un bon café.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: la web shop, custom
+Text Domain: la_web_shop
+*/
+
+@import "compass/css3";
+@import "compass/reset";
+@import "_partials/mixins";
+
+@import "_partials/general";
+@import "_partials/base_typography";
+@import "_partials/icons";
+@import "_partials/main_menu";
+@import "_partials/head_bar";
+@import "_partials/home_banner";
+@import "_partials/date_changer";
+@import "_partials/socials";
+@import "_partials/programmation";
+@import "_partials/news";
+@import "_partials/instagram";
+@import "_partials/footer";
+@import "_partials/newsletter_subscribe";
+@import "_partials/breadcrumbs";
+@import "_partials/fiche";
+@import "_partials/fiche_banner";
+@import "_partials/fiche_sidebar";
+@import "_partials/programme";
+//@import "_partials/fonts";
+
+@import "_vendors/jquery.fancybox";
+@import "_vendors/bootstrap";

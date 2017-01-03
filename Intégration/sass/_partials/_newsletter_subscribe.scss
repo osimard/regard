@@ -1,0 +1,114 @@
+#newsletter_subscribe
+{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 31;
+    background-color: #f47b20;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    transition:bottom 0.3s;
+    display:none;
+
+  .container {
+
+    width: 100%;
+    max-width:1300px;
+    position:relative;
+    padding-left:50px;
+    padding-right:50px;
+
+    .icon.speaker, .text, .subscribe {
+      display:inline-block;
+      vertical-align: middle;
+    }
+
+    .icon.speaker {
+      width:140px;
+      height:99px;
+      background-image:url("./images/icons/speaker_icon.png");
+      margin-right:50px;
+    }
+
+    .text {
+
+      width:546px;
+
+      p {
+        margin-bottom:10px;
+        font-size: 22px;
+
+        &.big {
+          display:table-cell;
+          vertical-align: bottom;
+        }
+      }
+
+    }
+
+
+    .subscribe {
+
+      float:right;
+      margin-top: 24px;
+
+      input[type="text"] {
+        border: none;
+        background-color: #f69348;
+        padding: 20px 30px;
+        width: 300px;
+        outline:none;
+
+        $newsletter_input_color:#2e2e2e;
+
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color:    $newsletter_input_color;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+           color:    $newsletter_input_color;
+           opacity:  1;
+        }
+        &::-moz-placeholder { /* Mozilla Firefox 19+ */
+           color:    $newsletter_input_color;
+           opacity:  1;
+        }
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+           color:    $newsletter_input_color;
+        }
+      }
+
+
+      button {
+        margin-left: -6px;
+        padding: 20px 30px;
+        border: none;
+        color: #fff;
+        background-color: #2e2e2e;
+        outline:none;
+
+        &:hover {
+          cursor:pointer;
+        }
+      }
+    }
+
+    #subscribe_close_button {
+
+      position: absolute;
+      top: 0;
+      right: 15px;
+
+      font-size:16px;
+      font-weight:bold;
+      color:#2e2e2e;
+      text-align:center;
+      text-transform: uppercase;
+
+      &:hover {
+        cursor:pointer;
+      }
+    }
+  }
+}

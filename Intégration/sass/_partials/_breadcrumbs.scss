@@ -1,0 +1,35 @@
+.breadcrumbs {
+
+  border-bottom:1px solid #dddbd5;
+
+  .container {
+
+    padding-top:15px;
+    padding-bottom:15px;
+
+    ul {
+
+      margin:0;
+
+      li {
+        font-size:13px;
+        display:inline-block;
+        vertical-align: middle;
+        color:#696969;
+
+        a {
+
+          color:#696969;
+
+          &.current {
+            color:#f47b20;
+          }
+
+          &:hover {
+            color:#f47b20;
+          }
+        }
+      }
+    }
+  }
+}
